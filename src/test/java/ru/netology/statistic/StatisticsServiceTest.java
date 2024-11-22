@@ -17,7 +17,6 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
     @Test
     void FindMaximumNumber() {
         StatisticsService service = new StatisticsService();
